@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Belle Nature de Saint-Quentin</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-image: url('https://upload.wikimedia.org/wikipedia/commons/3/32/Marais_d%27Isle_%C3%A0_Saint-Quentin_1.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        section {
+            padding: 40px 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        iframe {
+            width: 100%;
+            height: 300px;
+            border: 0;
+            border-radius: 8px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        input, textarea {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+        button {
+            padding: 10px;
+            background-color: #7ec850;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        a {
+            color: #7ec850;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>La Belle Nature de Saint-Quentin</h1>
+        <p>Photographies inspirées par les paysages naturels de l'Aisne</p>
+    </header>
+
+    <section>
+        <h2>Saint-Quentin, un joyau de nature</h2>
+        <p>
+            Située dans l'Aisne, la ville de Saint-Quentin regorge de trésors naturels. Le parc d'Isle, réserve naturelle riche en biodiversité,
+            est un endroit magique pour les passionnés de photographie. Entre ses marais, ses sentiers boisés et sa faune variée,
+            chaque coin offre un cadre parfait pour immortaliser la nature.
+        </p>
+        <p>
+            Vous pourrez également explorer le Canal de Saint-Quentin, la majestueuse Basilique vue au coucher du soleil,
+            ou encore les reflets des étangs paisibles au petit matin. Saint-Quentin est un terrain de jeu idéal pour tout photographe amoureux du calme et de la verdure.
+        </p>
+    </section>
+
+    <section>
+        <h2>Galerie photo</h2>
+        <div class="gallery">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/32/Marais_d%27Isle_%C3%A0_Saint-Quentin_1.jpg" alt="Marais d'Isle">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Basilique_Saint-Quentin.jpg" alt="Basilique Saint-Quentin">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/63/Canal_de_Saint-Quentin.jpg" alt="Canal de Saint-Quentin">
+        </div>
+    </section>
+
+    <section>
+        <h2>Actualités</h2>
+        <p>Prochaine sortie photo : dimanche 18 mai au lever du soleil au parc d'Isle ! Apportez votre appareil et votre bonne humeur.</p>
+    </section>
+
+    <section>
+        <h2>Localisation</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2538.7950197085623!2d3.288365115745179!3d49.84779827939644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e839dfc76e61cd%3A0x40af13e81622040!2sParc%20d'Isle!5e0!3m2!1sfr!2sfr!4v1620394648269!5m2!1sfr!2sfr" allowfullscreen=""></iframe>
+    </section>
+
+    <section>
+        <h2>Formulaire de contact</h2>
+        <form>
+            <input type="text" name="nom" placeholder="Votre nom" required>
+            <input type="email" name="email" placeholder="Votre email" required>
+            <textarea name="message" rows="5" placeholder="Votre message..." required></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <section>
+        <h2>Témoignages</h2>
+        <p><strong>Lucie M.</strong> : "Une séance photo magnifique au lever du jour, merci pour ta bienveillance et ton talent !"</p>
+        <p><strong>Marc D.</strong> : "Les paysages de Saint-Quentin n'ont jamais été aussi bien capturés. Bravo !"</p>
+    </section>
+
+    <footer>
+        &copy; 2025 La Belle Nature de Saint-Quentin — Tous droits réservés
+    </footer>
+</body>
+</html>
